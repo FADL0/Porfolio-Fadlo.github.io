@@ -10,19 +10,19 @@ window.onscroll = function (event) {
         body.style.backgroundColor = 'black';
          body.style.transitionDuration = '2s'
     } else if (scroll >= 1250 && scroll < 2000) {
-        // yellow
+        // page2
         body.style.backgroundColor = '#238c2a'
     } else if (scroll >= 2000 && scroll < 3400) {
-        // blue
+        // page3
        
         body.style.backgroundColor = 'black';
         body.style.transitionDuration = '2s'
     } else if (scroll >= 3400 && scroll < 4000) {
-        // orange
-        body.style.backgroundColor = 'black';
+        // page4
+        body.style.backgroundColor = '#895C06';
     
     } else {
-        // purple
+        // black
         body.style.backgroundColor = 'black';
     }
     
